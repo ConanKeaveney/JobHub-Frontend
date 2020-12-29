@@ -1,0 +1,35 @@
+.App {
+}
+
+.App-header {
+  background: #222;
+  height: 50px;
+  padding: 10px;
+  color: white;
+}
+
+.App-intro {
+  font-size: small;
+  margin: 0;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 5vh;
+  background: rgb(146, 173, 182);
+  color: white;
+}
+.nav-links{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}

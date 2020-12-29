@@ -1,0 +1,44 @@
+{
+  "lanes": [
+    {
+      "id": "0",
+      "title": "Applied",
+      "style": {
+        "width": 350,
+        "backgroundColor": "#ACB730",
+        "color": "#ffffff"
+      },
+      "cards": []
+    },
+    {
+      "id": "1",
+      "title": "Interview",
+      "style": {
+        "width": 350,
+        "backgroundColor": "#DA9B21",
+        "color": "#ffffff"
+      },
+      "cards": []
+    },
+    {
+      "id": "2",
+      "title": "Offer",
+      "style": {
+        "width": 350,
+        "backgroundColor": "#228B22",
+        "color": "#ffffff"
+      },
+      "cards": []
+    },
+    {
+      "id": "3",
+      "title": "Rejected",
+      "style": {
+        "width": 350,
+        "backgroundColor": "#B51212",
+        "color": "#ffffff"
+      },
+      "cards": []
+    }
+  ]
+}

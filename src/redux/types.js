@@ -1,0 +1,9 @@
+export const FETCH_BOARDS = "FETCH_BOARDS";
+export const NEW_BOARD = "NEW_BOARD";
+export const DELETE_BOARD = "DELETE_BOARD";
+
+export const FETCH_BOARD_DATA = "FETCH_BOARD_DATA";
+export const UPDATE_BOARD = "UPDATE_BOARD";
+export const GET_BOARD_MODAL_DATA = "GET_BOARD_MODAL_DATA";
+export const UPDATE_BOARD_MODAL_DATA = "UPDATE_BOARD_MODAL_DATA";
+export const NEW_CARD = "NEW_CARD";

@@ -1,0 +1,3 @@
+.mytable-hover > tbody > tr.mytable-hover-row:hover {
+  background-color: rgb(128, 97, 255);
+}

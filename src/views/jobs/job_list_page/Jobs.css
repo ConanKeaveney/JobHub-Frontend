@@ -1,0 +1,52 @@
+.h3,
+h3 {
+  color: #fff;
+}
+.h1,
+h1 {
+  color: #fff;
+}
+.h6,
+h6 {
+  color: #fff;
+}
+label {
+  color: #fff;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #7f60fd;
+  border-color: #7f60fd;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #1c0a29;
+  border-color: #7f60fd;
+}
+.page-item.active .page-link {
+  z-index: 1;
+  color: #fff;
+  background-color: #7f60fd;
+  border-color: #7f60fd;
+}
+.page-link {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #7f60fd;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+}
+.MuiTableSortLabel-root:focus {
+  color: #7f60fd;
+}
+.MuiTableCell-head {
+  color: #7f60fd;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+html {
+  background-color: #1c0a29;
+}
