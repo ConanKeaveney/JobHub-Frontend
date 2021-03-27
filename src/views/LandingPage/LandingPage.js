@@ -51,6 +51,7 @@ export default function LandingPage(props) {
               <h1 className={classes.title}>Welcome To JobHub</h1>
               <h4>
                 We have provided a platform to simplify the job search process.
+                This application is currently in beta.
               </h4>
               <br />
             </GridItem>
