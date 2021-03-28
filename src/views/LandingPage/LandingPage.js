@@ -35,7 +35,7 @@ export default function LandingPage(props) {
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand="JobHub"
+        brand="Jobser"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
@@ -48,7 +48,7 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>Welcome To JobHub</h1>
+              <h1 className={classes.title}>Welcome To Jobser</h1>
               <h4>
                 We have provided a platform to simplify the job search process.
                 This application is currently in beta.

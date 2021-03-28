@@ -35,7 +35,7 @@ export default function Footer(props) {
                 className={classes.block}
                 target="_blank"
               >
-                JobHub (Todo)
+                Jobser (Todo)
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
@@ -75,7 +75,7 @@ export default function Footer(props) {
             className={aClasses}
             target="_blank"
           >
-            JobHub Team
+            Jobser Team
           </a>{" "}
         </div>
       </div>
