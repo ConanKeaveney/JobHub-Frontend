@@ -49,10 +49,12 @@ export default function LandingPage(props) {
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title}>Welcome To Jobser</h1>
-              <h4>
-                We have provided a platform to simplify the job search process.
-                This application is currently in beta.
-              </h4>
+              <h3>
+                We have provided a platform to simplify the job search process
+                in the Republic of Ireland. We are currently focusing on finding
+                jobs from companies in tech for you. This application is
+                currently in beta. Try it out!
+              </h3>
               <br />
             </GridItem>
           </GridContainer>
