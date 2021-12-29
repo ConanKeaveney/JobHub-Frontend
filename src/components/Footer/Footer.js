@@ -11,8 +11,6 @@ import classNames from "classnames";
 import PropTypes from "prop-types";
 import React from "react";
 
-
-
 const useStyles = makeStyles(styles);
 
 export default function Footer(props) {
@@ -20,24 +18,24 @@ export default function Footer(props) {
   const { whiteFont } = props;
   const footerClasses = classNames({
     [classes.footer]: true,
-    [classes.footerWhiteFont]: whiteFont
+    [classes.footerWhiteFont]: whiteFont,
   });
   const aClasses = classNames({
     [classes.a]: true,
-    [classes.footerWhiteFont]: whiteFont
+    [classes.footerWhiteFont]: whiteFont,
   });
   return (
     <footer className={footerClasses}>
       <div className={classes.container}>
         <div className={classes.left}>
           <List className={classes.list}>
-            <ListItem className={classes.inlineBlock}>
+            {/* <ListItem className={classes.inlineBlock}>
               <a
                 href="https://www.creative-tim.com/?ref=mkr-footer"
                 className={classes.block}
                 target="_blank"
               >
-                JobHub (Todo)
+                Jobser (Todo)
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
@@ -48,17 +46,17 @@ export default function Footer(props) {
               >
                 About us (Todo)
               </a>
-            </ListItem>
+            </ListItem> */}
             <ListItem className={classes.inlineBlock}>
               <a
-                href="http://blog.creative-tim.com/?ref=mkr-footer"
+                href="mailto:conankeaveney96@gmail.com"
                 className={classes.block}
                 target="_blank"
               >
-                Todo
+                Leave feedback
               </a>
             </ListItem>
-            <ListItem className={classes.inlineBlock}>
+            {/* <ListItem className={classes.inlineBlock}>
               <a
                 href="https://www.creative-tim.com/license?ref=mkr-footer"
                 className={classes.block}
@@ -66,18 +64,18 @@ export default function Footer(props) {
               >
                 Licenses(Todo)
               </a>
-            </ListItem>
+            </ListItem> */}
           </List>
         </div>
         <div className={classes.right}>
           &copy; {1900 + new Date().getYear()} , made with{" "}
           <Favorite className={classes.icon} /> by{" "}
           <a
-            href="https://www.creative-tim.com?ref=mkr-footer"
+            // href="https://www.creative-tim.com?ref=mkr-footer"
             className={aClasses}
             target="_blank"
           >
-            JobHub Team
+            Jobser Team
           </a>{" "}
         </div>
       </div>
@@ -86,5 +84,5 @@ export default function Footer(props) {
 }
 
 Footer.propTypes = {
-  whiteFont: PropTypes.bool
+  whiteFont: PropTypes.bool,
 };

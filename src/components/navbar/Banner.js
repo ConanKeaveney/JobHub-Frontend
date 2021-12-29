@@ -19,7 +19,7 @@ export default function Banner(props) {
   return (
     <BannerContainer>
       <Header
-        brand="JobHub"
+        brand="Jobser"
         color="primary"
         rightLinks={
           <List className={classes.list}>
@@ -29,7 +29,7 @@ export default function Banner(props) {
                 buttonText="Profile"
                 buttonProps={{
                   className: classes.navLink,
-                  color: "transparent"
+                  color: "transparent",
                 }}
                 buttonIcon={AccountCircle}
                 dropdownList={[
@@ -38,7 +38,7 @@ export default function Banner(props) {
                     onClick={props.handleLogout}
                   >
                     <ExitToApp className={classes.icons} /> Logout
-                  </Link>
+                  </Link>,
                 ]}
               />
             </ListItem>
